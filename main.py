@@ -73,7 +73,7 @@ KNOWN_LAUNCHES = {
 
 # Hairline spread around a recorded count: the median is the count
 # itself and the outer quantiles sit 0.002% away on either side.
-RECORDED_SPREAD = (0.99998, 0.99999, 1.0, 1.00001, 1.00002)
+RECORDED_SPREAD = (0.99999, 0.999995, 1.0, 1.000005, 1.00001)
 
 
 def round_half_up(value):
